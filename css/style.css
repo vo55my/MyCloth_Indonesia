@@ -1,0 +1,103 @@
+/* index.php */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.slider h2,
+.slider h5,
+.toko h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.slider h2,
+.about h3,
+.toko h3,
+.edition h3,
+.katalog h3,
+.contact h3,
+.header h3 {
+  font-weight: 600;
+}
+
+.brand-logo {
+  max-width: 48px;
+  max-height: 48px;
+  margin: 5px auto;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  margin-top: 12px;
+}
+
+.about h5 {
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.parallax-container {
+  height: 100%;
+}
+
+.parallax img {
+  filter: drop-shadow(6);
+  opacity: 0.6 !important;
+}
+
+.toko img {
+  max-width: 150px;
+  max-height: 100px;
+  margin: 2px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.katalog img {
+  margin: 20px auto;
+}
+
+section {
+  padding: 1px 0;
+}
+
+/* daftar.php - login.php - tambah.php - update.php */
+.input-field label {
+  color: maroon;
+}
+
+.input-field input[type=text]:focus+label {
+  color: maroon;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid maroon;
+  box-shadow: 0 1px 0 0 maroon;
+}
+
+.input-field .prefix.active {
+  color: maroon;
+}
+
+.formulir {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ukuran label {
+  margin-right: 15px;
+}
+
+.footer {
+  padding: 10px;
+  font-size: 20px;
+}
