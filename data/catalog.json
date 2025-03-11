@@ -1,0 +1,163 @@
+{
+  "editions": [
+    {
+      "id":"BIKE",
+      "name": "Bike Edition",
+      "image": "/img/Edisi/Bike Edition.png"
+    },
+    {
+      "id":"BW",
+      "name": "Black & White Edition",
+      "image": "/img/Edisi/Black & White Edition.png"
+    },
+    {
+      "id":"GAMES",
+      "name": "Games Edition",
+      "image": "/img/Edisi/Games Edition.png"
+    },
+    {
+      "id":"INA",
+      "name": "Indonesia Edition",
+      "image": "/img/Edisi/Indonesia Edition.png"
+    },
+    {
+      "id":"SPACE",
+      "name": "Space Edition",
+      "image": "/img/Edisi/Space Edition.png"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "BIKE-01",
+      "image_1": "/img/Katalog/BIKE-01 (Front).png",
+      "image_2": "/img/Katalog/BIKE-01 (Back).png",
+      "edition": "Bike Edition",
+      "name": "BIKE-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Green Army"
+    },
+    {
+      "id": "BIKE-02",
+      "image_1": "/img/Katalog/BIKE-02 (Front).png",
+      "image_2": "/img/Katalog/BIKE-02 (Back).png",
+      "edition": "Bike Edition",
+      "name": "BIKE-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "White"
+    },
+    {
+      "id": "BLACK-03",
+      "image_1": "/img/Katalog/BLACK-01 (Front).png",
+      "image_2": "/img/Katalog/BLACK-01 (Back).png",
+      "edition": "Black & White Edition",
+      "name": "BLACK-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Black"
+    },
+    {
+      "id": "BIKE-04",
+      "image_1": "/img/Katalog/BLACK-02 (Front).png",
+      "image_2": "/img/Katalog/BLACK-02 (Back).png",
+      "edition": "Black & White Edition",
+      "name": "BLACK-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Black"
+    },
+    {
+      "id": "WHITE-01",
+      "image_1": "/img/Katalog/WHITE-01 (Front).png",
+      "image_2": "/img/Katalog/WHITE-01 (Back).png",
+      "edition": "Black & White Edition",
+      "name": "WHITE-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "White"
+    },
+    {
+      "id": "WHITE-02",
+      "image_1": "/img/Katalog/WHITE-02 (Front).png",
+      "image_2": "/img/Katalog/WHITE-02 (Back).png",
+      "edition": "Black & White Edition",
+      "name": "WHITE-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "White"
+    },
+    {
+      "id": "GAMES-01",
+      "image_1": "/img/Katalog/GAMES-01 (Front).png",
+      "image_2": "/img/Katalog/GAMES-01 (Back).png",
+      "edition": "Games Edition",
+      "name": "GAMES-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Blue"
+    },
+    {
+      "id": "GAMES-02",
+      "image_1": "/img/Katalog/GAMES-02 (Front).png",
+      "image_2": "/img/Katalog/GAMES-02 (Back).png",
+      "edition": "Games Edition",
+      "name": "GAMES-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Maroon"
+    },
+    {
+      "id": "INA-01",
+      "image_1": "/img/Katalog/INA-01 (Front).png",
+      "image_2": "/img/Katalog/INA-01 (Back).png",
+      "edition": "Indonesia Edition",
+      "name": "INA-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Maroon"
+    },
+    {
+      "id": "INA-02",
+      "image_1": "/img/Katalog/INA-02 (Front).png",
+      "image_2": "/img/Katalog/INA-02 (Back).png",
+      "edition": "Indonesia Edition",
+      "name": "INA-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Black"
+    },
+    {
+      "id": "SPACE-01",
+      "image_1": "/img/Katalog/SPACE-01 (Front).png",
+      "image_2": "/img/Katalog/SPACE-01 (Back).png",
+      "edition": "Space Edition",
+      "name": "SPACE-01",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Green Army"
+    },
+    {
+      "id": "SPACE-02",
+      "image_1": "/img/Katalog/SPACE-02 (Front).png",
+      "image_2": "/img/Katalog/SPACE-02 (Back).png",
+      "edition": "Space Edition",
+      "name": "SPACE-02",
+      "price": "Rp100.000",
+      "material": "Cotton Combed 30s",
+      "size": "S, M, L, XL, XXL",
+      "color": "Black"
+    }
+  ]
+}
