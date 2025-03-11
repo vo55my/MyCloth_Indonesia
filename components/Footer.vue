@@ -7,7 +7,7 @@
             <img
               src="/img/Slide/Logo.png"
               class="h-8 me-3"
-              alt="FlowBite Logo"
+              alt="MyCloth Logo"
             />
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
@@ -149,9 +149,7 @@
       <div class="text-center">
         <span class="text-sm text-gray-500 dark:text-gray-400"
           >© 2025
-          <a href="#" class="hover:underline"
-            >MyCloth Indonesia</a
-          >
+          <a href="#" class="hover:underline">MyCloth Indonesia</a>
           | Official Website
         </span>
       </div>
