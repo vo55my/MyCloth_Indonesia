@@ -46,7 +46,7 @@
             <hr class="w-21 h-1 bg-gray-100 border-0 dark:bg-gray-700 my-2" />
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4 grid grid-cols-2">
-                <a href="">
+                <a href="#">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-white hover:text-red-900"
                     aria-hidden="true"
@@ -61,7 +61,7 @@
                     />
                   </svg>
                 </a>
-                <a href="">
+                <a href="#">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-white hover:text-red-900"
                     aria-hidden="true"
@@ -88,7 +88,7 @@
             <hr class="w-25 h-1 bg-gray-100 border-0 dark:bg-gray-700 my-2" />
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4 grid grid-cols-3">
-                <a href="">
+                <a href="#">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-white hover:text-red-900"
                     aria-hidden="true"
@@ -106,7 +106,7 @@
                     />
                   </svg>
                 </a>
-                <a href="">
+                <a href="#">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-white hover:text-red-900"
                     aria-hidden="true"
@@ -123,7 +123,7 @@
                     />
                   </svg>
                 </a>
-                <a href="">
+                <a href="#">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-white hover:text-red-900"
                     aria-hidden="true"

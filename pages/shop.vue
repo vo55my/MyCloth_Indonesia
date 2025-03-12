@@ -21,8 +21,20 @@
           @update:selectedEditions="updateSelectedEditions"
         />
       </div>
+      <div
+        class="container mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6 px-4"
+      >
+        <ProductCard
+          v-for="(item, index) in filteredProducts"
+          :key="index"
+          :id="item.id"
+          :image_1="item.image_1"
+          :edition="item.edition"
+          :name="item.name"
+          :price="item.price"
+        />
+      </div>
     </section>
-    <ShopSection :products="filteredProducts" />
     <Footer />
   </div>
 </template>
@@ -34,6 +46,7 @@ import ShopSection from "../components/ShopSection.vue";
 import Breadcrumb from "../components/Breadcrumb.vue";
 import EditionDropdown from "../components/EditionDropdown.vue";
 import SearchBar from "../components/SearchBar.vue";
+import ProductCard from "../components/ProductCard.vue";
 import catalogData from "../data/catalog.json";
 
 export default {
@@ -44,6 +57,7 @@ export default {
     Breadcrumb,
     EditionDropdown,
     SearchBar,
+    ProductCard,
   },
   data() {
     return {
