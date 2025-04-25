@@ -1,6 +1,6 @@
 <template>
   <div>
-    <link rel="shortcut icon" href="/public/images/Slide/favicon.ico" type="image/x-icon">
+    <NuxtLink rel="shortcut icon" href="/images/Slide/favicon.ico" type="image/x-icon"></NuxtLink>
     <Navbar />
     <Carousel />
     <StoreSection />
@@ -17,6 +17,7 @@ import StoreSection from "../components/StoreSection.vue";
 import EditionSection from "../components/EditionSection.vue";
 import CatalogSection from "../components/CatalogSection.vue";
 import Footer from "../components/Footer.vue";
+import NuxtLink from "nuxt-link";
 
 export default {
   components: {
