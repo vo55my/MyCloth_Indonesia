@@ -17,7 +17,6 @@ import StoreSection from "../components/StoreSection.vue";
 import EditionSection from "../components/EditionSection.vue";
 import CatalogSection from "../components/CatalogSection.vue";
 import Footer from "../components/Footer.vue";
-import NuxtLink from "nuxt-link";
 
 export default {
   components: {
