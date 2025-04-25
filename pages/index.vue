@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink rel="shortcut icon" href="/images/Slide/favicon.ico" type="image/x-icon"></NuxtLink>
+    <link rel="shortcut icon" href="/images/Slide/favicon.ico" type="image/x-icon" />
     <Navbar />
     <Carousel />
     <StoreSection />
