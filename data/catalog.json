@@ -3,34 +3,34 @@
     {
       "id":"BIKE",
       "name": "Bike Edition",
-      "image": "/img/Edisi/Bike Edition.png"
+      "image": "/images/Edition/Bike.png"
     },
     {
       "id":"BW",
       "name": "Black & White Edition",
-      "image": "/img/Edisi/Black & White Edition.png"
+      "image": "/images/Edition/BW.png"
     },
     {
       "id":"GAMES",
       "name": "Games Edition",
-      "image": "/img/Edisi/Games Edition.png"
+      "image": "/images/Edition/Games.png"
     },
     {
       "id":"INA",
       "name": "Indonesia Edition",
-      "image": "/img/Edisi/Indonesia Edition.png"
+      "image": "/images/Edition/Indonesia.png"
     },
     {
       "id":"SPACE",
       "name": "Space Edition",
-      "image": "/img/Edisi/Space Edition.png"
+      "image": "/images/Edition/Space.png"
     }
   ],
   "catalog": [
     {
       "id": "BIKE-01",
-      "image_1": "/img/Katalog/BIKE-01 (Front).png",
-      "image_2": "/img/Katalog/BIKE-01 (Back).png",
+      "image_1": "/images/Katalog/BIKE-01 (Front).png",
+      "image_2": "/images/Katalog/BIKE-01 (Back).png",
       "edition": "Bike Edition",
       "name": "BIKE-01",
       "price": "Rp100.000",
@@ -40,8 +40,8 @@
     },
     {
       "id": "BIKE-02",
-      "image_1": "/img/Katalog/BIKE-02 (Front).png",
-      "image_2": "/img/Katalog/BIKE-02 (Back).png",
+      "image_1": "/images/Katalog/BIKE-02 (Front).png",
+      "image_2": "/images/Katalog/BIKE-02 (Back).png",
       "edition": "Bike Edition",
       "name": "BIKE-02",
       "price": "Rp100.000",
@@ -51,8 +51,8 @@
     },
     {
       "id": "BLACK-03",
-      "image_1": "/img/Katalog/BLACK-01 (Front).png",
-      "image_2": "/img/Katalog/BLACK-01 (Back).png",
+      "image_1": "/images/Katalog/BLACK-01 (Front).png",
+      "image_2": "/images/Katalog/BLACK-01 (Back).png",
       "edition": "Black & White Edition",
       "name": "BLACK-01",
       "price": "Rp100.000",
@@ -62,8 +62,8 @@
     },
     {
       "id": "BIKE-04",
-      "image_1": "/img/Katalog/BLACK-02 (Front).png",
-      "image_2": "/img/Katalog/BLACK-02 (Back).png",
+      "image_1": "/images/Katalog/BLACK-02 (Front).png",
+      "image_2": "/images/Katalog/BLACK-02 (Back).png",
       "edition": "Black & White Edition",
       "name": "BLACK-02",
       "price": "Rp100.000",
@@ -73,8 +73,8 @@
     },
     {
       "id": "WHITE-01",
-      "image_1": "/img/Katalog/WHITE-01 (Front).png",
-      "image_2": "/img/Katalog/WHITE-01 (Back).png",
+      "image_1": "/images/Katalog/WHITE-01 (Front).png",
+      "image_2": "/images/Katalog/WHITE-01 (Back).png",
       "edition": "Black & White Edition",
       "name": "WHITE-01",
       "price": "Rp100.000",
@@ -84,8 +84,8 @@
     },
     {
       "id": "WHITE-02",
-      "image_1": "/img/Katalog/WHITE-02 (Front).png",
-      "image_2": "/img/Katalog/WHITE-02 (Back).png",
+      "image_1": "/images/Katalog/WHITE-02 (Front).png",
+      "image_2": "/images/Katalog/WHITE-02 (Back).png",
       "edition": "Black & White Edition",
       "name": "WHITE-02",
       "price": "Rp100.000",
@@ -95,8 +95,8 @@
     },
     {
       "id": "GAMES-01",
-      "image_1": "/img/Katalog/GAMES-01 (Front).png",
-      "image_2": "/img/Katalog/GAMES-01 (Back).png",
+      "image_1": "/images/Katalog/GAMES-01 (Front).png",
+      "image_2": "/images/Katalog/GAMES-01 (Back).png",
       "edition": "Games Edition",
       "name": "GAMES-01",
       "price": "Rp100.000",
@@ -106,8 +106,8 @@
     },
     {
       "id": "GAMES-02",
-      "image_1": "/img/Katalog/GAMES-02 (Front).png",
-      "image_2": "/img/Katalog/GAMES-02 (Back).png",
+      "image_1": "/images/Katalog/GAMES-02 (Front).png",
+      "image_2": "/images/Katalog/GAMES-02 (Back).png",
       "edition": "Games Edition",
       "name": "GAMES-02",
       "price": "Rp100.000",
@@ -117,8 +117,8 @@
     },
     {
       "id": "INA-01",
-      "image_1": "/img/Katalog/INA-01 (Front).png",
-      "image_2": "/img/Katalog/INA-01 (Back).png",
+      "image_1": "/images/Katalog/INA-01 (Front).png",
+      "image_2": "/images/Katalog/INA-01 (Back).png",
       "edition": "Indonesia Edition",
       "name": "INA-01",
       "price": "Rp100.000",
@@ -128,8 +128,8 @@
     },
     {
       "id": "INA-02",
-      "image_1": "/img/Katalog/INA-02 (Front).png",
-      "image_2": "/img/Katalog/INA-02 (Back).png",
+      "image_1": "/images/Katalog/INA-02 (Front).png",
+      "image_2": "/images/Katalog/INA-02 (Back).png",
       "edition": "Indonesia Edition",
       "name": "INA-02",
       "price": "Rp100.000",
@@ -139,8 +139,8 @@
     },
     {
       "id": "SPACE-01",
-      "image_1": "/img/Katalog/SPACE-01 (Front).png",
-      "image_2": "/img/Katalog/SPACE-01 (Back).png",
+      "image_1": "/images/Katalog/SPACE-01 (Front).png",
+      "image_2": "/images/Katalog/SPACE-01 (Back).png",
       "edition": "Space Edition",
       "name": "SPACE-01",
       "price": "Rp100.000",
@@ -150,8 +150,8 @@
     },
     {
       "id": "SPACE-02",
-      "image_1": "/img/Katalog/SPACE-02 (Front).png",
-      "image_2": "/img/Katalog/SPACE-02 (Back).png",
+      "image_1": "/images/Katalog/SPACE-02 (Front).png",
+      "image_2": "/images/Katalog/SPACE-02 (Back).png",
       "edition": "Space Edition",
       "name": "SPACE-02",
       "price": "Rp100.000",

@@ -15,24 +15,24 @@
       <a href="#" class="flex items-center justify-center">
         <img
           class="h-auto max-w-full"
-          src="/img/Toko/Tokopedia.png"
-          alt="image description"
+          src="/images/Toko/Lazada.png"
+          alt="Lazada"
           width="200"
         />
       </a>
       <a href="#" class="flex items-center justify-center">
         <img
           class="h-auto max-w-full"
-          src="/img/Toko/Shopee.png"
-          alt="image description"
+          src="/images/Toko/Shopee.png"
+          alt="Shopee"
           width="150"
         />
       </a>
       <a href="#" class="flex items-center justify-center">
         <img
           class="h-auto max-w-full"
-          src="/img/Toko/Lazada.png"
-          alt="image description"
+          src="/images/Toko/Tokopedia.png"
+          alt="Tokopedia"
           width="150"
         />
       </a>

@@ -5,7 +5,7 @@
         <div class="mb-6 md:mb-0 w-80">
           <a href="#" class="flex items-center">
             <img
-              src="/img/Slide/Logo.png"
+              src="/images/Slide/Logo.png"
               class="h-8 me-3"
               alt="MyCloth Logo"
             />
@@ -148,7 +148,7 @@
       <hr class="my-5 border-gray-200 sm:mx-auto dark:border-gray-700" />
       <div class="text-center">
         <span class="text-sm text-gray-500 dark:text-gray-400"
-          >© 2025
+          >© {{ currentYear }}
           <a href="#" class="hover:underline">MyCloth Indonesia</a>
           | Official Website
         </span>
@@ -156,3 +156,13 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  computed: {
+    currentYear() {
+      return new Date().getFullYear();
+    },
+  },
+};
+</script>

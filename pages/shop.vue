@@ -92,19 +92,6 @@ export default {
         return matchesName && matchesEdition && matchesImage;
       });
     },
-    sortProducts(criteria) {
-      if (criteria === "popularity") {
-        this.filteredProducts.sort((a, b) => b.popularity - a.popularity);
-      } else if (criteria === "latest") {
-        this.filteredProducts.sort(
-          (a, b) => new Date(b.date) - new Date(a.date)
-        );
-      } else if (criteria === "priceLowToHigh") {
-        this.filteredProducts.sort((a, b) => a.price - b.price);
-      } else if (criteria === "priceHighToLow") {
-        this.filteredProducts.sort((a, b) => b.price - a.price);
-      }
-    },
     updateSelectedEditions(newSelectedEditions) {
       this.selectedEditions = newSelectedEditions;
       this.filterProducts();

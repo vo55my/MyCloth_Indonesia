@@ -1,10 +1,7 @@
 <template>
-  <section
-    id="catalog"
-    class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16 px-4"
-  >
+  <section id="catalog" class="bg-white py-8 dark:bg-gray-900 md:py-16 px-4">
     <h1
-      class="text-center mb-3 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white"
+      class="text-center mb-3 text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
     >
       Catalog
     </h1>
@@ -13,8 +10,8 @@
       class="container mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:px-4"
     >
       <ProductCard
-        v-for="(item, index) in relatedProducts"
-        :key="index"
+        v-for="item in relatedProducts"
+        :key="item.id"
         :image_1="item.image_1"
         :edition="item.edition"
         :name="item.name"
@@ -33,16 +30,26 @@ export default {
     ProductCard,
   },
   data() {
-    return {
-      relatedProducts: this.getRandomRelatedProducts(
-        catalogData.catalog.slice(1),
-        4
-      ),
-    };
+    return {};
+  },
+  computed: {
+    relatedProducts() {
+      return this.getRandomRelatedProducts(catalogData.catalog.slice(1), 4);
+    },
   },
   methods: {
     getRandomRelatedProducts(products, limit) {
-      const shuffled = products.sort(() => 0.5 - Math.random());
+      if (!products.length) {
+        return [];
+      }
+      if (limit > products.length) {
+        limit = products.length;
+      }
+      const shuffled = [...products];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
       return shuffled.slice(0, limit);
     },
   },

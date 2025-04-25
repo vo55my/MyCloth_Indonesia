@@ -1,51 +1,51 @@
 <template>
   <section
     id="edition"
-    class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16 px-4"
+    class="antialiased bg-white dark:bg-gray-900 md:py-16 py-8 px-4"
   >
     <h1
-      class="text-center mb-3 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white"
+      class="dark:text-white font-bold leading-none lg:text-4xl mb-3 md:text-3xl text-4xl text-center text-gray-900 tracking-tight"
     >
       Edition
     </h1>
-    <hr class="w-25 h-1 mx-auto bg-gray-100 border-0 dark:bg-gray-700 mb-5" />
+    <hr class="border-0 bg-gray-100 dark:bg-gray-700 h-1 mb-5 mx-auto w-25" />
     <div
-      class="container mx-auto grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:mx-10 gap-4"
+      class="container gap-4 grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 mx-auto sm:mx-10 sm:grid-cols-2"
     >
       <div class="flex justify-center">
         <img
-          class="h-auto max-w-full rounded-lg"
-          src="/img/Edition/Bike.png"
-          alt=""
+          class="h-auto rounded-lg max-w-full"
+          src="/images/Edition/Bike.png"
+          alt="Bike Edition"
         />
       </div>
       <div class="flex justify-center">
         <img
           class="h-auto max-w-full rounded-lg"
-          src="/img/Edition/BW.png"
-          alt=""
+          src="/images/Edition/BW.png"
+          alt="BW Edition"
         />
       </div>
       <div class="flex justify-center">
         <img
           class="h-auto max-w-full rounded-lg"
-          src="/img/Edition/Games.png"
-          alt=""
+          src="/images/Edition/Games.png"
+          alt="Games Edition"
         />
       </div>
       <div class="flex justify-center">
         <figure
-          class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale"
+          class="cursor-pointer filter grayscale max-w-sm relative transition-all duration-300"
         >
           <a href="/shop">
             <img
-              class="rounded-lg transition-all duration-300 blur-xs hover:blur-none"
-              src="/img/Edition/Space.png"
-              alt="image description"
+              class="blur-xs duration-300 hover:blur-none rounded-lg transition-all"
+              src="/images/Edition/Space.png"
+              alt="All Editions"
             />
           </a>
           <figcaption
-            class="absolute inset-0 flex items-center justify-center px-4 text-lg text-white"
+            class="absolute flex inset-0 items-center justify-center px-4 text-white text-lg"
           >
             <a href="/shop">
               <p class="text-3xl font-bold text-center">View More</p>

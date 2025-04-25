@@ -2,20 +2,20 @@
   <div
     class="w-full max-w-sm rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
   >
-    <a :href="`/product/${id}`">
+    <a :href="productUrl">
       <img class="p-6 rounded-t-lg" :src="image_1" alt="Product Image" />
     </a>
     <div class="px-5 pb-5">
-      <a :href="`/product/${id}`">
+      <a :href="productUrl">
         <h5
           class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white text-center"
         >
           {{ name }}
         </h5>
       </a>
-      <div class="text-center dark:text-white pb-4">
+      <p class="text-center dark:text-white pb-4">
         {{ edition }}
-      </div>
+      </p>
       <div
         class="flex flex-wrap items-center md:justify-between gap-2 justify-center"
       >
@@ -58,6 +58,11 @@ export default {
     price: {
       type: String,
       required: true,
+    },
+  },
+  computed: {
+    productUrl() {
+      return `/product/${this.id}`;
     },
   },
 };

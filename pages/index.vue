@@ -1,5 +1,6 @@
 <template>
   <div>
+    <link rel="shortcut icon" href="/public/images/Slide/favicon.ico" type="image/x-icon">
     <Navbar />
     <Carousel />
     <StoreSection />

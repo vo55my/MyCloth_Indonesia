@@ -35,7 +35,7 @@
         </svg>
       </button>
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/img/Slide/Logo.png" class="h-12" alt="MyCloth Logo" />
+        <img src="/images/Slide/Logo.png" class="h-12" alt="MyCloth Logo" />
       </a>
       <button
         data-collapse-toggle="navbar-default"

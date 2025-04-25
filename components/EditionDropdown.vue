@@ -3,7 +3,7 @@
     <button
       id="dropdownSearchButton"
       data-dropdown-toggle="dropdownSearch"
-      class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
       type="button"
     >
       Edition
@@ -25,7 +25,7 @@
     </button>
     <div
       id="dropdownSearch"
-      class="z-10 hidden bg-white rounded-lg shadow-sm w-55 dark:bg-gray-700"
+      class="z-10 hidden bg-white rounded-lg shadow-sm w-56 dark:bg-gray-700"
     >
       <ul
         class="h-48 px-3 pb-3 overflow-y-auto text-sm text-gray-700 dark:text-gray-200"
@@ -45,7 +45,7 @@
             />
             <label
               :for="'checkbox-item-' + edition"
-              class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300"
+              class="w-full ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               {{ edition }}
             </label>
@@ -70,14 +70,13 @@ export default {
   },
   methods: {
     toggleEdition(edition) {
-      const newSelectedEditions = [...this.selectedEditions];
-      const index = newSelectedEditions.indexOf(edition);
+      const index = this.selectedEditions.indexOf(edition);
       if (index > -1) {
-        newSelectedEditions.splice(index, 1);
+        this.selectedEditions.splice(index, 1);
       } else {
-        newSelectedEditions.push(edition);
+        this.selectedEditions.push(edition);
       }
-      this.$emit("update:selectedEditions", newSelectedEditions);
+      this.$emit("update:selectedEditions", this.selectedEditions);
     },
   },
 };
