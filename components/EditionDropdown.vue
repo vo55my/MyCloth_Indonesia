@@ -25,10 +25,10 @@
     </button>
     <div
       id="dropdownSearch"
-      class="z-10 hidden bg-white rounded-lg shadow-sm w-56 dark:bg-gray-700"
+      class="z-10 hidden bg-white rounded-lg shadow-sm w-45 dark:bg-gray-700"
     >
       <ul
-        class="h-48 px-3 pb-3 overflow-y-auto text-sm text-gray-700 dark:text-gray-200"
+        class="h-50 py-2 overflow-y-auto text-sm text-gray-700 dark:text-gray-200"
         aria-labelledby="dropdownSearchButton"
       >
         <li v-for="edition in editions" :key="edition">

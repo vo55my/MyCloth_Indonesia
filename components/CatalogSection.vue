@@ -1,5 +1,8 @@
 <template>
-  <section id="catalog" class="bg-white py-8 dark:bg-gray-900 md:py-16 px-4">
+  <section
+    id="catalog"
+    class="antialiased bg-white pb-10 pt-20 dark:bg-gray-900 md:py-16 px-4"
+  >
     <h1
       class="text-center mb-3 text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
     >

@@ -17,7 +17,7 @@
           class="h-auto max-w-full"
           src="/images/Toko/Lazada.png"
           alt="Lazada"
-          width="200"
+          width="150"
         />
       </a>
       <a href="#" class="flex items-center justify-center">

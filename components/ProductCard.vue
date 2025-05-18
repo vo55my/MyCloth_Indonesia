@@ -22,18 +22,24 @@
         <span class="text-xl font-bold text-gray-900 dark:text-white">{{
           price
         }}</span>
-        <a
-          :href="`/product/${id}`"
-          class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm p-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
-          >Shop now</a
-        >
+        <!-- Ganti tombol dengan ShopButton -->
+        <ShopButton
+          :shopeeUrl="shopeeUrl"
+          :tokopediaUrl="tokopediaUrl"
+          :lazadaUrl="lazadaUrl"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ShopButton from "./ShopButton.vue";
+
 export default {
+  components: {
+    ShopButton,
+  },
   props: {
     id: {
       type: String,
@@ -59,10 +65,17 @@ export default {
       type: String,
       required: true,
     },
-  },
-  computed: {
-    productUrl() {
-      return `/product/${this.id}`;
+    shopeeUrl: {
+      type: String,
+      required: true,
+    },
+    tokopediaUrl: {
+      type: String,
+      required: true,
+    },
+    lazadaUrl: {
+      type: String,
+      required: true,
     },
   },
 };

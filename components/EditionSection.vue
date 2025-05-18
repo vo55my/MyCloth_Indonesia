@@ -1,7 +1,7 @@
 <template>
   <section
     id="edition"
-    class="antialiased bg-white dark:bg-gray-900 md:py-16 py-8 px-4"
+    class="antialiased bg-white dark:bg-gray-900 md:py-16 pb-10 pt-20 px-4"
   >
     <h1
       class="dark:text-white font-bold leading-none lg:text-4xl mb-3 md:text-3xl text-4xl text-center text-gray-900 tracking-tight"
